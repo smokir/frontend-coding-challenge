@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
-import tournaments from './tournaments';
+
+import tournaments from 'reducers/tournaments';
 
 const rootReducer = combineReducers({
   tournaments

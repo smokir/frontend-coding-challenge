@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import theme from '../theme';
+
+import theme from 'theme';
 
 const H4 = styled.h4`
   ${theme.typography.h4};
